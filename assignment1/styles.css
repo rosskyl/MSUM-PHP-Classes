@@ -1,0 +1,26 @@
+body {
+	background-color: #66ccff;
+}
+
+h1 {
+	color:blue;
+}
+
+h2 {
+	color:red;
+}
+
+body {
+	margin: 70px;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+iframe {
+	display: inline-block;
+	width: 600px;
+	height: 650px;
+	margin: 15px;
+}

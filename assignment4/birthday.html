@@ -1,0 +1,99 @@
+<html>
+<head>
+	<title>Birthday</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="../navbarIframe.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>Kyle Ross</h1>
+	<h2>CSIS 311 Assignment 4</h2>
+	<h3>Birthday Info</h3>
+
+	<iframe id="navbar" src="../navbar.html" scrolling="no" frameborder="0" border="0"></iframe>
+
+	<form action="birthday.php" method="post">
+	<fieldset>
+		<h4>Enter your Birthday</h4>
+		<table><tr>
+		<td><fieldset class="fixedHeight">
+			<legend>Month</legend>
+			<div><input type="radio" name="month" value="jan" checked>January</div>
+			<div><input type="radio" name="month" value="feb">February</div>
+			<div><input type="radio" name="month" value="mar">March</div>
+			<div><input type="radio" name="month" value="apr">April</div>
+			<div><input type="radio" name="month" value="may">May</div>
+			<div><input type="radio" name="month" value="jun">June</div>
+			<div><input type="radio" name="month" value="jul">July</div>
+			<div><input type="radio" name="month" value="aug">August</div>
+			<div><input type="radio" name="month" value="sep">September</div>
+			<div><input type="radio" name="month" value="oct">October</div>
+			<div><input type="radio" name="month" value="nov">November</div>
+			<div><input type="radio" name="month" value="dec">December</div>
+		</fieldset></td>
+		<td><fieldset class="fixedHeight">
+			<legend>Day</legend>
+			<select name="day">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				<option>31</option>
+			</select>
+		</fieldset></td>
+		<td><fieldset class="fixedHeight">
+			<legend>Year</legend>
+			<input type="number" name="year" min="1900" max="2017" value="1995">
+		</fieldset></td>
+		</tr></table>
+	</fieldset>
+
+	<fieldset>
+		<h4>What do you want to know about your birthday?</h4>
+		<div><input type="checkbox" name="season" checked>Season of the year</div>
+		<div><input type="checkbox" name="zodiac" checked>Zodiac sign</div>
+		<div><input type="checkbox" name="chinese" checked>Chinese animal</div>
+		<div><input type="checkbox" name="age" checked>How old you are</div>
+		<div><input type="checkbox" name="birthWeekday" checked>What day of the week you were born on</div>
+		<div><input type="checkbox" name="nextBirthWeekday" checked>What day of the week is your next birthday</div>
+		<div><input type="checkbox" name="daysToNext" checked>How many days until your next birthday</div>
+	</fieldset>
+	<input type="submit" value="Submit">
+	<input type="reset">
+		
+	</form>
+
+
+	<br />
+	<br />
+	<footer>
+		<a id="back" href=".">Back</a>
+	</footer>
+</body>
+</html>

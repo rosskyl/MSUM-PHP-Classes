@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Add Contact</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="navbarIframe.css">
+	<meta name="viewport" contents="width=display-width, initial-scale=1.0">
+</head>
+
+<body>
+
+        <iframe id="navbar" src="navbar.html" scrolling="no" frameborder="0" border="0"></iframe>
+
+	<form action="addContact.php" method="post">
+	<fieldset>
+	<legend>Add Contact</legend>
+	<fieldset>
+		<legend>Name</legend>
+		<h4>First name<input type="text" name="fname"></h4>
+		<h4>Last name<input type="text" name="lname"></h4>
+	</fieldset>
+	<fieldset>
+		<legend>Phone Number</legend>
+		<h4>Phone number<input type="text" name="phone"></h4>
+		<div><input type="radio" name="phoneType" value="cell">Cell Phone</div>
+		<div><input type="radio" name="phoneType" value="home">Home Phone</div>
+		<div><input type="radio" name="phoneType" value="other">Other</div>
+	</fieldset>
+	<fieldset>
+		<legend>Address</legend>
+		<h4>Street<input type="text" name="street1"></h4>
+		<h4>Street<input type="text" name="street2"></h4>
+		<h4>City<input type="text" name="city"></h4>
+		<h4>State <select name="state">
+			<option>IA</option>
+			<option>MN</option>
+			<option>ND</option>
+			<option>SD</option>
+		</select></h4>
+		<h4>Zip code<input type="text" name="zip"></h4>
+	</fieldset>
+	<fieldset>
+		<legend>Notes</legend>
+		<textarea name="notes" rows="10" cols="50"></textarea>
+	</fieldset>
+	<input type="submit" value="Submit">
+	</fieldset>
+	</form>
+
+</body>
+</html>

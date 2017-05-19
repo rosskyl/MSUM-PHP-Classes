@@ -1,0 +1,25 @@
+Address book
+
+Can search, add, and view entries
+
+For radio button, select phone type (cell, home, other)
+
+For text area, have a note
+
+For drop down menu, select an entry
+
+For check box, select search criteria
+	match case
+	exact match
+	end
+	start
+
+After search, shows name of each person with a link to their page
+
+For each entry, brings to editable form with reset, clear, and submit
+
+Index will have links to search, view, and add
+
+Maybe use an iframe sized to the window to show that the site is on it's own
+
+Have each entry be a different text file and overwrite the file when saved
